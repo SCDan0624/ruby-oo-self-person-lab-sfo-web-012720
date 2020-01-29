@@ -58,7 +58,7 @@ class Person
     
     def take_bath
       happiness = 4
-      "Rub-a-dub"
+      "♪ Rub-a-dub just relaxing in the tub ♫"
     end
  
 end
