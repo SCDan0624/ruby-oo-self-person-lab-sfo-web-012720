@@ -55,5 +55,9 @@ class Person
       @bank_account += amount
       "all about the benjamins"
     end
+    
+    def take_bath
+      happiness = 4
+    end
  
 end
