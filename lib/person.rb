@@ -57,7 +57,7 @@ class Person
     end
     
     def take_bath
-      self 
+      self.hygiene
        "♪ Rub-a-dub just relaxing in the tub ♫"
     end
  
