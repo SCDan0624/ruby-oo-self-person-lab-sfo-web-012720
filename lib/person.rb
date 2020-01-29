@@ -34,7 +34,7 @@ class Person
         elsif hygiene < 0
             @hygiene = 0
         else
-           hygiene
+           @hygiene = hygiene
         end
        
     end
