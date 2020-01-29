@@ -34,7 +34,7 @@ class Person
         elsif hygiene < 0
             @hygiene = 0
         else
-           @hygiene = hygiene
+           @hygiene += hygiene
         end
        
     end
@@ -57,7 +57,7 @@ class Person
     end
     
     def take_bath
-      @hygiene += 4
+      hygiene = 4
       "♪ Rub-a-dub just relaxing in the tub ♫"
     end
  
